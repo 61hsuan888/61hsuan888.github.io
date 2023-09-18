@@ -1,0 +1,45 @@
+    h1{
+        color:aqua 
+    }
+    /* padding是字體框框的距離，border框框要多粗，margin是兩個東西的距離 */
+    
+    body{
+        margin: 0px;
+    }
+
+    #banner {
+        width: 800px;
+        height: 200px;
+        background-color: blanchedalmond;
+        clear:both;
+    }
+
+    #nav {
+        width: 100px;
+        background-color: beige;
+        float:left;
+    }
+/* float變換位置 */
+    #wrapper {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    #content {
+        width: 600px;
+        float:left;
+    }
+
+    #footer {
+        width: 800px;
+        height: 100px;
+        background-color: gray;
+        float:left;
+        clear:both;
+    }
+
+    #supporting {
+        width: 100px;
+        background-color: gray;
+        float: left;
+    }
