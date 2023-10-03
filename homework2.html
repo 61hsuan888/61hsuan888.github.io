@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <!-- 引入 Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- 自定义 CSS 样式 -->
+    <style>
+        /* 自定义大 banner 样式 */
+        .big-banner {
+            background-color: #007bff;
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+            width: 600%; /* 设置宽度为原来的6倍 */
+            margin-left: -250%; /* 居中显示 */
+        }
+
+        /* 添加自定义样式以使菜单固定在屏幕上方 */
+        .sticky-top {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        /* 自定义區塊 banner 样式 */
+        .block-banner {
+            background-color: #28a745;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        /* 區塊 banner 文字样式 */
+        .block-banner h2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+        }
+
+        /* 自定义區塊内容样式 */
+        .block-content {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 大 Banner -->
+    <div class="big-banner">
+        <h1>這裡是banner字樣</h1>
+    </div>
+
+    <!-- 导航菜单 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="height: 50px;">
+        <div class="container">
+            <!-- 网页标题 -->
+            <a class="navbar-brand" href="#">首页</a>
+            <!-- 切换按钮（手机端显示） -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- 菜单项 -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#區塊一Banner">區塊一</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#區塊二Banner">區塊二</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#區塊三Banner">區塊三</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 區塊一 Banner -->
+    <section id="區塊一Banner" class="block-banner">
+        <div class="container">
+            <!-- 區塊一 Banner 字 -->
+            <h2>區塊一 Banner</h2>
+        </div>
+    </section>
+
+    <!-- 區塊一内容 -->
+<section>
+    <div class="container block-content">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <!-- 區塊一的内容示例 -->
+                <h2>區塊一</h2>
+                <p>这里是區塊一的更多内容。您可以在这里添加更多文字，内容将放在底色框框内。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 區塊二 Banner -->
+<section id="區塊二Banner" class="block-banner">
+    <div class="container">
+        <!-- 區塊二 Banner 字 -->
+        <h2>區塊二 Banner</h2>
+    </div>
+</section>
+
+<!-- 區塊二内容 -->
+<section>
+    <div class="container block-content">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <!-- 區塊二的内容示例 -->
+                <h2>區塊二</h2>
+                <p>这里是區塊二的更多内容。您可以在这里添加更多文字，内容将放在底色框框内。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 區塊三 Banner -->
+<section id="區塊三Banner" class="block-banner">
+    <div class="container">
+        <!-- 區塊三 Banner 字 -->
+        <h2>區塊三 Banner</h2>
+    </div>
+</section>
+
+<!-- 區塊三内容 -->
+<section>
+    <div class="container block-content">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <!-- 區塊三的内容示例 -->
+                <h2>區塊三</h2>
+                <p>这里是區塊三的更多内容。您可以在这里添加更多文字，内容将放在底色框框内。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- 引入 Bootstrap JavaScript（包括 jQuery 和 Popper.js） -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript 用于点击导航链接时滚动到區塊 banner -->
+    <script>
+        document.querySelectorAll('.navbar-nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetBanner = document.getElementById(targetId);
+                window.scrollTo({ top: targetBanner.offsetTop - (window.innerHeight / 2), behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
