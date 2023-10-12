@@ -1,0 +1,120 @@
+.custom-jumbotron {
+    background-color: #000 !important; /* 黑色背景，!important 用于确保覆盖其他样式 */
+    color: #ff69b4; /* 螢光粉色文字 */
+    margin-bottom: 0; /* 移除自定义jumbotron底部外边距 */
+    text-align: center;
+    height: 100vh;
+}
+
+.navbar {
+    margin-top: 0; /* 移除导航栏顶部外边距 */
+}
+
+  
+.bg-orange {
+    background-color: #ffa500; /* 橙色背景 */
+}
+
+/* 自定义橙色文本颜色 */
+#navigator {
+    text-decoration-color: #fff; 
+}
+
+#first {
+    background-image: url("https://github.com/61hsuan888/61hsuan888.github.io/blob/main/assets/J51.png?raw=true");
+    height: 200vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#second {
+    background-image: url("https://github.com/61hsuan888/61hsuan888.github.io/blob/main/assets/J61.png?raw=true");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+div.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+#aboutbg{
+    background-image: url("https://github.com/61hsuan888/61hsuan888.github.io/blob/main/assets/IMG_3621.PNG?raw=true");
+    height: 200vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aboutp{
+    text-align: center;
+    background-color: bisque;
+
+}
+
+#combobg{
+    background-image: url("https://github.com/61hsuan888/61hsuan888.github.io/blob/main/assets/J41.jpg?raw=true");
+    height: 200vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#combop{
+    text-align: center;
+    background-color: bisque;
+    
+}
+
+#nightbg{
+    background-image: url("https://github.com/61hsuan888/61hsuan888.github.io/blob/main/assets/J31.png?raw=true");
+    height: 200vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nightp{
+    text-align: center;
+    background-color: bisque;
+}
+
+#ssbg{
+    background-image: url("https://github.com/61hsuan888/61hsuan888.github.io/blob/main/assets/J7.jpg?raw=true");
+    height: 200vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ssp{
+    text-align: center;
+    background-color: bisque;
+}
+
+#first2 {
+    background-image: url("https://github.com/61hsuan888/61hsuan888.github.io/blob/main/assets/J1.jpg?raw=true");
+    height: 200vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#second2 {
+    background-image: url("https://github.com/61hsuan888/61hsuan888.github.io/blob/main/assets/J2.JPG?raw=true");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
