@@ -1,0 +1,49 @@
+#statusbar {
+/* 	position: absolute;
+	position: static; */
+	position: relative; 
+	left: 0px;
+	background-color: rgba(255, 255, 0, 0.5);
+}
+
+.square {
+	float: left;
+	height: 25px;
+	width: 25px;
+}
+
+#sunrisingbg{
+  background-image: url("https://github.com/61hsuan888/61hsuan888.github.io/blob/main/001536460036_11zon.jpg?raw=true");
+  height: 300vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ #noonbg{
+   background-image: url("https://github.com/61hsuan888/61hsuan888.github.io/blob/main/000325760008_11zon.jpg?raw=true");
+   height: 600vh;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#sunsetbg{
+  background-image: url("https://github.com/61hsuan888/61hsuan888.github.io/blob/main/000626970021_11zon.jpg?raw=true");
+  height: 600vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#nightbg{
+  background-image: url("https://github.com/61hsuan888/61hsuan888.github.io/blob/main/000626970016_11zon.jpg?raw=true");
+  height: 1200vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
