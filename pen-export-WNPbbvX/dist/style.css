@@ -1,0 +1,26 @@
+#video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    top: 0;
+}
+
+h1 {
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    background-color: white;
+}
+
+h2 {
+    position: absolute;
+    background-color: white;
+}
+
+#endingSection {
+    height: 100vh;
+    background: pink;
+}
